@@ -1,0 +1,10 @@
+result*
+dist*
+*.o
+*.swp
+*.swm
+*.swo
+*.dyn_hi
+*.dyn_o
+*.hi
+*.hp
