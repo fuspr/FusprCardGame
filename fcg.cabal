@@ -40,6 +40,13 @@ executable fcg
     Main.hs 
   build-depends:
       base >=4.10 && <5.00
+    , containers
+    , fclabels 
+    , mtl
+    , mtl-compat
+    , MonadRandom
+    , random-shuffle
+    , text
   default-language:    Haskell2010
   if flag(dev-wall-werror)
     ghc-options: -Wall -Werror
